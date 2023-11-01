@@ -19,7 +19,7 @@ class TestVarasto2(unittest.TestCase):
     def test_konstruktori_luo_oikeankokoisen_saldon(self):
         self.assertAlmostEqual(self.varasto2.saldo, 5)
 
-class TestVarasto3(unittest.TestCase):
+lass TestVarasto3(unittest.TestCase):
     def setUp(self):
         self.varasto3 = Varasto(10, 12)
 
