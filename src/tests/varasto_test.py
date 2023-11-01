@@ -1,7 +1,6 @@
 import unittest
 from varasto import Varasto
 
-#testimuutos
 
 
 class TestVarasto1(unittest.TestCase):
